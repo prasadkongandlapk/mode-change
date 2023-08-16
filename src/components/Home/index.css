@@ -1,0 +1,33 @@
+.dark-bg {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.light-bg {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-text-light {
+  color: #171f46;
+}
+.home-text-dark {
+  color: white;
+}
+
+.home-img {
+  height: 100px;
+  width: 100px;
+}
+.home-dark-img-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  justify-content: center;
+}

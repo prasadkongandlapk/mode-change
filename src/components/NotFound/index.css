@@ -1,0 +1,12 @@
+.not-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.not-img {
+  height: 200px;
+  width: 200px;
+}
