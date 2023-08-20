@@ -6,9 +6,9 @@ const Home = () => (
   <ThemeContext.Consumer>
     {value => {
       const {isDarkTheme} = value
+      const homeAlt = isDarkTheme ? 'home' : 'theme'
 
       const homeTxt = isDarkTheme ? 'home-text-dark' : 'home-text-light'
-      const homeAlt = isDarkTheme ? 'theme' : 'home'
 
       const homeBg = isDarkTheme ? 'dark-bg' : 'light-bg'
       const homeImg = isDarkTheme
@@ -19,7 +19,7 @@ const Home = () => (
         <div className={homeBg}>
           <Navbar />
           <div className="home-dark-img-bg">
-            <img className="home-img" src={homeImg} alt={homeAlt} />
+            <img className="home-img" src={homeImg} alt="home" />
             <h1 className={homeTxt}>Home</h1>
           </div>
         </div>

@@ -18,7 +18,7 @@ const About = () => (
         <div className={homeBg}>
           <Navbar />
           <div className="home-dark-img-bg">
-            <img className="home-img" src={homeImg} alt={homeAlt} />
+            <img className="home-img" src={homeImg} alt="about" />
             <h1 className={homeTxt}>About</h1>
           </div>
         </div>

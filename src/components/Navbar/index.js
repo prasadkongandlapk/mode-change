@@ -41,7 +41,7 @@ const Navbar = () => (
           </li>
           <li data-testid="theme">
             <button type="button" onClick={onChangeMode}>
-              <img className="img-btn" src={btnImg} alt="mode change" />
+              <img className="img-btn" src={btnImg} alt="theme" />
             </button>
           </li>
         </ul>
